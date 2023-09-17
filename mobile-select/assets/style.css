@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 3em 1em;
+}
+
+.mobile-select-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 6px;
+}
+
+.button {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 12px 20px;
+  color: #fff;
+  line-height: 20px;
+  border: 1px solid #333;
+  background-color: #333;
+  border-radius: 6px;
+}

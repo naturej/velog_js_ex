@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mobile-select 예제</title>
+    <link rel="stylesheet" href="../assets/style.css" />
+  </head>
+  <body>
+    <div>
+      <h3>🗓️ 날짜를 선택해주세요.</h3>
+      <form>
+        <input type="hidden" id="date" name="date" value="" />
+        <div class="mobile-select-box" id="start-date"></div>
+        <button type="button" class="button" id="btn-submit">확인</button>
+      </form>
+    </div>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/mobile-select@1.4.0/dist/style/mobile-select.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/mobile-select@1.4.0/dist/mobile-select.iife.min.js"></script>
+    <script src="./index.js" defer></script>
+  </body>
+</html>
